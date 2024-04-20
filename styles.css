@@ -1101,9 +1101,17 @@ body {
 .purchases__endtime{
   padding-left: 85px;
   color: var(--manatee-color);
-  font-size: var(--third-text);
+  font-size: var(--five-text);
 }
 
 .cancelled{
   color: var(--carnation--color);
+}
+
+.usuall{
+  font-size: var(--five-text);
+}
+
+.purchases__list ::before{
+  content: "";
 }
